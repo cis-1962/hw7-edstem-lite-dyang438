@@ -1,0 +1,18 @@
+meta {
+  name: signup
+  type: http
+  seq: 2
+}
+
+post {
+  url: http://localhost:8000/api/questions/answer
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "_id" : "66062349d400879d8e8018e8",
+    "answer" : "that"
+  }
+}
