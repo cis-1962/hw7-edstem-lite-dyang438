@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "testCIS1962-hw7",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}
