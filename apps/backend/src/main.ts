@@ -23,9 +23,6 @@ app.use(bodyParser.json());
 
 const MONGO_URI = 'mongodb+srv://dyang438:fortnitebattleroyale@hw7edstemlitecis1962db.zluhcf5.mongodb.net/?retryWrites=true&w=majority&appName=HW7EdStemLiteCIS1962DB'
 mongoose.connect(MONGO_URI)
-  .then(() => {
-    console.log('MongoDB connection success.');
-  })
   .catch((error) => {
     console.error('MongoDB connection error:', error.message);
   });
